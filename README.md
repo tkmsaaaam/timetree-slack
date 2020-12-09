@@ -24,11 +24,11 @@
 # 事前準備
  - `Personal access token` に関する準備
     - [Personal access tokenを作成する](https://timetreeapp.com/developers/personal_access_tokens)
-    - `/lib/app.rb` の `L8` にセットする
+    - `/lib/event.rb` の `L4` にセットする
  - カレンダーIDを準備。
     - カレンダーのIDを取得する。（Web版の場合 https://timetreeapp.com/calendars/:calendar_id の `:calendar_id` の部分）
-    - `/lib/app.rb` の `L7` にセットする
- - SlackのIncoming WebhookのURLを取得し `/lib/post_slack.rb` の `L9` にセットする。また任意でチャンネル、ユーザーネーム、アイコンをセットする。
+    - `/lib/app.rb` の `L10` にセットする
+ - SlackのIncoming WebhookのURLを取得し `/lib/slack_message.rb` の `L9` にセットする。また任意でチャンネル、ユーザーネーム、アイコンをセットする。
 
 # 環境構築
  - `Ruby: 2.6.3` の環境を構築する。
